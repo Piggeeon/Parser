@@ -1,8 +1,9 @@
 # NewsParser
-Приложение ищет новые новости на сайте "https://www.benzinga.com/markets", отправляет их в очередь сообщений
-в RabbitMQ и сохраняет в MongoDB.
+The application searches for new news on the site "https://www.benzinga.com/markets", sends them to the message queue
+in RabbitMQ and saves to MongoDBю
 
-Для запуска приложения перейдите в терминале в директорию с проектом и введите:
+Made by <b>[Piggeeon](https://github.com/Piggeeon)</b>
 
-    docker-compose up -d
-
+Starting the application:
+1) If necessary, change the environment variables in the .env file to your own
+2) Go to project root and start application with `docker-compose up -d`
